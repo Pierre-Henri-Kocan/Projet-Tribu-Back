@@ -48,7 +48,7 @@ class Category
         $this->posts = new ArrayCollection();
     }
 
-    public function __toString(): ?string
+    public function __toString(): string
     {
         return $this->name;
     }
